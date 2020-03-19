@@ -1,4 +1,4 @@
-<div class="wrapper-hero ml1 mr1 mt1 mb1">
+<div class="wrapper-hero ml1 mr1 mt1">
     <div class="owl-carousel hero-slider">
     <?php if( have_rows('hero_slider') ): while( have_rows('hero_slider') ): the_row();   ?>
         <?php $hero_image = get_sub_field('image'); ?>
